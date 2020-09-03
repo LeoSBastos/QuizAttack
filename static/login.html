@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Login - Quiz Attack</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/lib/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<ul id='dropdown1' class='dropdown-content'>
+		<li>
+			<a href="login.html">Login</a>
+		</li>
+		<li class="divider" tabindex="-1"></li>
+		<li>
+			<a href="register.html">Cadastro</a>
+		</li>
+	</ul>
+
+	<ul id='dropdown2' class='dropdown-content'>
+		<li>
+			<a href="/game">Jogar</a>
+		</li>
+		<div id="questmenu">
+			<li class="divider" tabindex="-1"></li>
+			<li>
+				<a href="perguntas.html">Perguntas</a>
+			</li>
+		</div>
+		<li class="divider" tabindex="-1"></li>
+		<li>
+			<a href="#">Sair</a>
+		</li>
+	</ul>
+
+	<nav class="atlatean" role="navigation">
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="index.html" class="brand-logo">Quiz Attack</a>
+			<ul class="right hide-on-med-and-down">
+				<li>
+					<a class="dropdown-trigger" id="menu1" href="#" data-target="dropdown1">Menu</a>
+					<a class="dropdown-trigger" id="menu2" href="#" data-target="dropdown2">Menu</a>
+				</li>
+			</ul>
+
+			<ul id="nav-mobile" class="sidenav">
+				<li>
+					<a href="login.html">Login</a>
+				</li>
+			</ul>
+			<a href="#" data-target="nav-mobile" class="sidenav-trigger">
+				<i class="material-icons">menu</i>
+			</a>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col s12 m8 l6 offset-m2 offset-l3">
+				<form id="form-login">
+					<div class="input-field">
+						<input id="user_login" type="text" class="validate" name="login">
+						<label for="user_login">Usúario</label>
+					</div>
+					<div class="input-field">
+						<input id="password" type="text" class="validate" name="password">
+						<label for="password">Senha</label>
+					</div>
+					<button class="btn peachy" type="submit" name="action">Enviar
+						<i class="material-icons right">send</i>
+					</button>
+					<br>
+					<br>
+					<a class="btn peachy" href="#">Esqueceu a senha?</a>
+					<br>
+					<br>
+					<a class="btn peachy" href="register.html">Não possui cadastro?</a>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer class="page-footer atlatean">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Bio dos Criadores</h5>
+					<p class="grey-text text-lighten-4">Somos um time de estudantes de Ciência da Computação e usamos esse jogo como um projeto para a aula de
+						Sistemas Multimidia.</p>
+					</div>
+					<div class="col s3 push-s5">
+						<h5 class="white-text">Contato/Criadores</h5>
+						<ul>
+							<li>
+								<a class="white-text" href="http://samuelnovaes.ml">Samuel Novaes</a>
+							</li>
+							<li>
+								<a class="white-text" href="#!">Luiz Gustavo</a>
+							</li>
+							<li>
+								<a class="white-text" href="#!">Leo Bastos</a>
+							</li>
+							<li>
+								<a class="white-text" href="#!">Eloy Guimarães</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					Made with
+					<a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/lib/materialize.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/login.js"></script>
+	</body>
+
+	</html>

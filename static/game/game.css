@@ -1,0 +1,67 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.center {
+  margin-top:25%;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+dialog{
+  position: absolute;
+  border: 0px;
+}
+
+#aguardando{
+  z-index: 1;
+}
+#rodando{
+  z-index: 1;
+}
+#dialogo{
+  top: 20%;
+  z-index: 2;
+}
+
+#questionlist{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+#game {
+  z-index: 0;
+}
+
+.info{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: rgba(240,120,48,0.5);
+  color: white;
+}
+#buttonShop{
+  position: fixed;
+  z-index: 100;
+  top: 90%;
+  left: 90%;
+}
+#shop{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 45%;
+  padding: 10px;  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  color: black;
+}

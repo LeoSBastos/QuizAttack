@@ -1,0 +1,41 @@
+{
+	"name": "quiz-attack",
+	"version": "1.0.0",
+	"description": "Jooj em Phaser e Node.js",
+	"main": "index.js",
+	"scripts": {
+		"start": "cross-env SECRET=vidademerda node index.js",
+		"test": "cross-env SECRET=vidademerda nodemon index.js",
+		"map": "node buildmap.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/samuelnovaes/quiz-attack.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/samuelnovaes/quiz-attack/issues"
+	},
+	"homepage": "https://github.com/samuelnovaes/quiz-attack#readme",
+	"dependencies": {
+		"axios": "^0.18.0",
+		"body-parser": "^1.18.2",
+		"compression": "^1.7.2",
+		"cors": "^2.8.4",
+		"cross-env": "^5.1.5",
+		"express": "^4.16.3",
+		"jwt-simple": "^0.5.1",
+		"md5": "^2.2.1",
+		"mongoose": "^5.0.16",
+		"npm": "^6.0.1",
+		"routerfy": "^1.0.5",
+		"serve-static": "^1.13.2",
+		"socket.io": "^2.1.0",
+		"validator": "^9.4.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.17.3"
+	}
+}
